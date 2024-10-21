@@ -14,14 +14,12 @@ public class Ex05Controller extends HttpServlet{
 	// 보완적으로 위험한 데이터를 파리미터로 전달 받을때
 	// url 로 표현하기 힘든 큰데이터나 파일을 파라미터로 전달 받을떄
 	@Override
-	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+	public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		
 		// 이름과 생년월일을 전달 받고,
 		// 이름과 나이를 html로 구성
 		
-		request.setCharacterEncoding("utf-8");
-		response.setCharacterEncoding("utf-8");
-		response.setContentType("text/html");
+		response.setCharacterEncoding("text/html");
 		
 		PrintWriter out = response.getWriter();
 		
