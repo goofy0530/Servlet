@@ -7,6 +7,14 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<%
+	request.getParameter("date");
+	request.getParameter("time");
+	
+	int date = Integer.parseInt(dateString);
+	int date = Integer.parseInt(timeString);
+	
+	
+	%>
 </body>
 </html>

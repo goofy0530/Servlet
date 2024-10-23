@@ -50,7 +50,8 @@
 	}
 	%>
 	
-	
+	<h3>1부터 50까지의 합은 <%= calculateSum(50) %></h3>
+	<h2>4. 나이 구하기</h2>
 	<%
 		String birthDay = "20010820";
 		int year = Integer.paseInt(birthDay.substring(0,4));
