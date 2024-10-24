@@ -4,16 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title h</title>
+<title>Insert title here</title>
 </head>
 <body>
-	
-	<div class="container">
-		
-		<h2>사칙연산</h2>
-		
-		<form method="post" action="/jsp/test/test04.jsp">
-		</form>
-	</div>
+
 </body>
 </html>
