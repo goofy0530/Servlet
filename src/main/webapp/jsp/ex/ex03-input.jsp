@@ -27,9 +27,9 @@
 		
 		<!-- 체크박스 -->
 		<h3>좋아하는 음식을 모두 고르세요</h3>
-		<lable>민트초코<input type="checkbox"></lable>
-		<lable>하와이안피자<input type="checkbox"></lable>
-		<lable>번데기<input type="checkbox"></lable>
+		<lable>민트초코<input type="checkbox" name="food" value="민트초코"></lable>
+		<lable>하와이안피자<input type="checkbox" name="food" value="하와이안피자"></lable>
+		<lable>번데기<input type="checkbox" name="food" value="번데기"></lable>
 		
 		<br>
 		<button type="submit">입력</button>
